@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Şans Programı</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSS_FG_LUCKTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSS_FG_LUCK</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSS_FM_ODD_EVEN_PRIME</FUNCNAME>
+     <SHORT_TEXT>Tek-Çift Kontrolü</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_NUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSS_T0003_T</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_EVEN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT1</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_ODD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT1</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_PRIME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT1</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Şans Program input</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_EVEN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Doğal sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ODD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Doğal sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_PRIME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>B20 int1 için yapay (her yerde yerel!)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZSS_FM_RANDOM_LOOP</FUNCNAME>
+     <SHORT_TEXT>Random Sayı Döngüsü</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LOOP_COUNT</PARAMETER>
+       <TYP>INT2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MAX_NUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MIN_NUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_RANDOM_TABLE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSS_T0003_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LOOP_COUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>2 baytlık tamsayı (işaretli)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MAX_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Doğal sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MIN_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Doğal sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RANDOM_TABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Şans Program input</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

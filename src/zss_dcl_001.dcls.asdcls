@@ -1,0 +1,11 @@
+@EndUserText.label: 'CDS Access Control'
+@MappingRole: true
+define role ZSS_DCL_001 {
+    grant
+        select
+            on
+                zss_cds019_ddl
+                    where
+                        CARRID = 'AA'; // verdiğimiz cds çalıştırıldıgında buradaki koşula göre çalışmaktadır.
+                        
+}

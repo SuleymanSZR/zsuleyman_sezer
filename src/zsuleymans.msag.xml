@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSULEYMANS</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Lütfen Satır Seçiniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Birden Çok Satır Seçildi! Lütfen Tek Satır Seçiniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Notunuz Başarıyla Kaydedildi.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Mail gönderimi başarılı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Mail gönderimi başarısız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Tabloda veri bulunamadı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Aynı TC kimlik No ile kayıt edilemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Kullanıcı başarı ile silindi.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Silme işlemi başarısız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Kitap başarı ile silindi.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Aynı ID ile kitap kaydedilemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Elimizde kitap kalmadı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Kitap varken pasif bırakılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Lütfen tüm alanları doldurun!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>3 Ardışık sayı kullanılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Girilen sayı 1 ile 49 arasında olmalı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Aynı sayı iki kere kullanılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Çift sayıda girilmelidir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Tek sayıda girilmelidir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Asal sayıda girilmelidir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Bir adet sayı bildiniz. Tekrar deneyiniz...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Hiç bilemediniz. Tekrar deneyiniz...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>CVV numarası girilmelidir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Kart numarası 16 hane girilmelidir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Yüklenecek miktarı giriniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Tüm alanları giriniz!!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Girilen tarihte tek çekiliş yapılabilir. Daha önce çekiliş yapılmıştır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Geçmiş tarihe bilet alınamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Seçili biletler satın alındı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Geçmiş tarihte çekiliş yapıldı. Tekrar çekiliş yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Girilen tarihte çekiliş bulunmamaktadır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSULEYMANS</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Girilen tarihte biletiniz bulunmamaktadır.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
